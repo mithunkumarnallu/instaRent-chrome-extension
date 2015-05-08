@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "instaRent's view insta-rent",
+  "description": "This extension shows the current rent owed by a tenant on instaRent!",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "instaRent_16.png",
+    "default_popup": "popup.html",
+    "default_title": "instaRent's view rent instantly!"
+  },
+  "icons": {
+    "32": "instaRent.png",
+    "128": "instaRent.png"
+  },
+  "permissions": [
+    "cookies", "tabs",
+    "activeTab",
+    "http://*/*",
+    "https://ajax.googleapis.com/"
+  ]
+}

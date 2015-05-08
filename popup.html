@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)https://developer.chrome.com/extensions/examples/tutorials/getstarted/popup.html -->
+<html>
+    <head>
+        <script src="./popup_files/jquery.min.js"></script>
+        <script src="./popup_files/js.cookie.js"></script>
+
+        <script src="./popup_files/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="./popup_files/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="./popup_files/bootstrap.min.css">
+        <link rel="stylesheet" href="./popup_files/font-awesome.min.css">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>instaRent's popup to view rent status</title>
+        <style>
+          body {
+            font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+            font-size: 100%;
+          }
+          #status {
+            /* avoid an excessively wide status text */
+            white-space: pre;
+            overflow: hidden;
+
+          }
+        </style>
+
+        <!--
+          - JavaScript and HTML must be in separate files: see our Content Security
+          - Policy documentation[1] for details and explanation.
+          -
+          - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+         -->
+        <script src="./popup_files/popup.js"></script><style type="text/css"></style>
+      </head>
+  <body>
+
+  <div id="wrapper">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+          <a class="navbar-brand" href="/dashboard" style="font-weight: 700; font-family: 'Montserrat','Helvetica Neue','Helvetica','Arial','sans-serif'; color: white">
+              <span class="light" style="font-weight: 500;color:#7FED11">INSTA</span>RENT</a>
+      </div>
+    </nav>
+      <h2 id="status"></h2>
+  </div>
+
+
+    <!--<script type="text/javascript">(function () {-->
+        <!--return window.SIG_EXT = {};-->
+      <!--})()</script>-->
+  </body>
+</html>
